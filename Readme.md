@@ -1,44 +1,41 @@
-Olá, criei uma APIRestful bem simples utilizando Flask, SQLite e JWT, com o intuito de demonstrar conhecimento, é possivel fazer as requisiçoes de registro, login e acesso a secure para testar se o JWT está funcionando corretamente.
+Olá,
 
-Segue as instruções para usar está API Rest.
+Criei uma API Restful simples utilizando Flask, SQLite e JWT com o objetivo de demonstrar conhecimento no desenvolvimento de APIs. Abaixo estão as instruções para usar esta API Rest:
 
-1 - Verifique se o Python está instalado na sua maquina com o comando python --version, se não estiver instalado, por favor instale primeiro e retorne aqui (segue o link para download https://www.python.org/downloads/)
+1 - Verifique se o Python está instalado em sua máquina usando o comando python --version. Se não estiver instalado, por favor, instale primeiro.
 
-2- Instala as dependecias que iram ser usadas. 
+2- Instale as dependências necessárias que serão utilizadas:
     - Flask 
     - flask_sqlalchemy 
     - flask_restful
     - flask_jwt_extended
 
-3 - Agora, leia atentamente todos os comentarios para sanar suas duvidas, entenda que se trata de uma API basica que pode ser melhorada ao seu favor e entenda que você deve organizar melhor o arquivo se for usar, a informações estão todas em um unico arquivo.
+3 - Leia atentamente todos os comentários no código para esclarecer eventuais dúvidas. Observe que a API é básica e pode ser aprimorada de acordo com suas necessidades. Considere organizar o código de forma mais estruturada, se necessário, uma vez que as informações estão todas em um único arquivo.
 
-4 - Rode no terminal o comando python3 app.py para iniciar o projeto
+4 - Para iniciar o projeto, execute o seguinte comando no terminal:
+    Python3 app.py
 
-5 - Testes com POSTMAN <br>
-http://localhost:5000/register
+5 - Teste a API utilizando o Postman: <br>
 
-Utilizando essa rota você iri registrar o usuario, deve retornar uma mensagem no seu postman
-Retornará essa mensagem segue iamgem abaixo
+Para registrar um usuário, faça uma requisição para: http://localhost:5000/register. Você receberá uma mensagem de confirmação.
 
 ![Imagem Ilustrativa](https://i.postimg.cc/Gp6jxrtd/Register.png)
 
-
-http://localhost:5000/login
-
-Agora para a rota de login você ira usar o nome e senha cadastrado para pegar a sua chave de acesso
-Retornará essa mensagem segue iamgem abaixo
+Para fazer login, faça uma requisição para: http://localhost:5000/login, utilizando o nome de usuário e senha cadastrados para obter sua chave de acesso.
 
 ![Imagem Ilustrativa](https://i.postimg.cc/xdXRmq06/Login.png)
 
-
-http://localhost:5000/secure
-
-E por ultimo você faz a requisição para o JWT confirmar que está funcionando e que está seguro para conexão 
-Retornará essa mensagem segue iamgem abaixo
+Para acessar uma rota segura e verificar se o JWT está funcionando corretamente, faça uma requisição para: http://localhost:5000/secure.
 
 ![Imagem Ilustrativa](https://i.postimg.cc/nz7Gd597/Secure.png)
 
-Conclusão e informações extras: 
- <br>
-    Este código pode ser usado para criar uma API RESTful com autenticação JWT. Ele pode ser reutilizado em qualquer projeto que precise de uma API com essas características. Você só precisaria modificar o modelo de banco de dados e os recursos da API para se adequar às necessidades do seu projeto. Por exemplo, você poderia adicionar mais campos ao modelo User ou adicionar mais recursos à API. Além disso, você poderia substituir o banco de dados SQLite por um banco de dados mais robusto para produção, como PostgreSQL ou MySQL.
-Att Alan Feitosa!
+Conclusão e Informações Extras: <br>
+
+Este código pode ser utilizado como base para criar uma API RESTful com autenticação JWT. Ele pode ser adaptado e expandido de acordo com as necessidades do seu projeto. Por exemplo, é possível adicionar mais campos ao modelo de usuário ou incluir mais recursos na API. Além disso, para ambientes de produção, considere substituir o banco de dados SQLite por opções mais robustas, como PostgreSQL ou MySQL.
+
+Atenciosamente,
+Alan Feitosa
+
+
+
+
