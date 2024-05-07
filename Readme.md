@@ -20,7 +20,7 @@ http://localhost:5000/register
 Utilizando essa rota você iri registrar o usuario, deve retornar uma mensagem no seu postman
 Retornará essa mensagem segue iamgem abaixo
 
-![Imagem Ilustrativa](https://ibb.co/q9ZLRch)
+![Imagem Ilustrativa](https://i.postimg.cc/Gp6jxrtd/Register.png)
 
 
 http://localhost:5000/login
@@ -28,7 +28,7 @@ http://localhost:5000/login
 Agora para a rota de login você ira usar o nome e senha cadastrado para pegar a sua chave de acesso
 Retornará essa mensagem segue iamgem abaixo
 
-![Imagem Ilustrativa](https://ibb.co/vJjfzQZ)
+![Imagem Ilustrativa](https://i.postimg.cc/xdXRmq06/Login.png)
 
 
 http://localhost:5000/secure
@@ -36,7 +36,7 @@ http://localhost:5000/secure
 E por ultimo você faz a requisição para o JWT confirmar que está funcionando e que está seguro para conexão 
 Retornará essa mensagem segue iamgem abaixo
 
-![Imagem Ilustrativa](https://ibb.co/6vYZmf2)
+![Imagem Ilustrativa](https://i.postimg.cc/nz7Gd597/Secure.png)
 
 Conclusão e informações extras: 
  <br>
